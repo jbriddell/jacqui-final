@@ -4,11 +4,15 @@
 <article class="container">
   <div class="row">
     <div class="col-sm-4 left-rail">
-      {% block info %}{% endblock %}
+      <img src = "img/img/members/{{ members.imagebw }}" class="img-fluid" alt="img of member goes here">
     </div>
+    <p style="margin-left: auto"> {{ member.text | safe }}</p>
     <div class="col-sm-8">
-      {% block story %}{% endblock %}
-
+    <h1> {{ members.name | safe }} </h1>
+    <h2> {{ members.instruments | safe }} </h2>
+    <h5> {{ members.birthdate| safe }} </h5>
+    <h5> {{ members.birthplace| safe }} </h5>
+      <p> {{ members.text | safe }} </p>
     </div>
   </div>
 </article>
