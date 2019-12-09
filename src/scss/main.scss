@@ -15,6 +15,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family:'Anton', sans-serif;
 }
 
+iframe{
+  color: white;
+  padding: 60px;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-left: auto;
+  align-content: center;
+  background-color: white;
+}
+
 /* bootstrap */
 // Option A: Include all of Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
